@@ -71,6 +71,12 @@
       });
 
       getPassword();
+      document.getElementById('btn').addEventListener('mousedown', function() {
+        this.className = 'pushed';
+      });
+      document.getElementById('btn').addEventListener('mouseup', function() {
+        this.className = '';
+      });
     })();
   </script>
 </body>
