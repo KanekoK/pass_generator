@@ -26,6 +26,10 @@ input[type="text"] {
 #btn:hover {
   opacity: 0.8;
 }
+#btn.pushed {
+  margin-top: 32px;
+  box-shadow: 0 2px 0 #0088cc;
+}
 fieldset {
   margin-top: 40px;
   border: 1px dashed #AAA;
